@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Silk - Paiement</title>
+    <link rel="stylesheet" href="/src/css/global.css">
+    <link rel="stylesheet" href="/src/css/checkout.css">
+</head>
+<body>
+    <!-- En-Tête et Barre de Navigation -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">Secret Silk</a>
+                <p class="slogan">L'Élégance de l'Intimité et de la Découverte</p>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="marketplace.html">Marketplace</a></li>
+                    <li><a href="games_home.html">Jeux Coquins</a></li>
+                    <li><a href="blog_home.html">Blog Sexo</a></li>
+                    <li><a href="account.html">Mon Compte</a></li>
+                    <li><a href="store.html">Boutique</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icons">
+                <input type="text" placeholder="Rechercher..." class="search-bar">
+                <a href="cart.html" class="cart-icon">🛒</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section Paiement -->
+    <section class="checkout">
+        <h1>Finaliser Votre Commande</h1>
+        <div class="checkout-form">
+            <form action="payment_success.html" method="post">
+                <div class="form-group">
+                    <label for="fullname">Nom Complet :</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Adresse de Livraison :</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+                <div class="form-group">
+                    <label for="city">Ville :</label>
+                    <input type="text" id="city" name="city" required>
+                </div>
+                <div class="form-group">
+                    <label for="zipcode">Code Postal :</label>
+                    <input type="text" id="zipcode" name="zipcode" required>
+                </div>
+                <div class="form-group">
+                    <label for="cardnumber">Numéro de Carte :</label>
+                    <input type="text" id="cardnumber" name="cardnumber" required>
+                </div>
+                <div class="form-group">
+                    <label for="expdate">Date d'Expiration :</label>
+                    <input type="text" id="expdate" name="expdate" placeholder="MM/AA" required>
+                </div>
+                <div class="form-group">
+                    <label for="cvv">CVV :</label>
+                    <input type="text" id="cvv" name="cvv" required>
+                </div>
+                <button type="submit" class="btn-primary">Payer Maintenant</button>
+            </form>
+        </div>
+        <div class="order-summary">
+            <h2>Résumé de la Commande</h2>
+            <p>Sous-total : <strong>22,98 €</strong></p>
+            <p>Taxes : <strong>2,30 €</strong></p>
+            <p>Total : <strong>25,28 €</strong></p>
+        </div>
+    </section>
+
+    <!-- Pied de Page -->
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="marketplace.html">Marketplace</a></li>
+                <li><a href="games_home.html">Jeux Coquins</a></li>
+                <li><a href="blog_home.html">Blog Sexo</a></li>
+                <li><a href="account.html">Mon Compte</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <p>Suivez-nous :</p>
+            <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+        </div>
+        <p class="copyright">&copy; 2024 Secret Silk. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,54 @@
+Voici une description détaillée de la page *Profil Acheteur* pour la Marketplace de *Secret Silk*. Cette page est conçue pour offrir aux acheteurs un espace personnel et sécurisé où ils peuvent gérer leurs achats, suivre leurs commandes, interagir avec les vendeuses, et personnaliser leur expérience sur la plateforme.
+
+---
+
+### **Page Profil Acheteur : Description**
+
+La page *Profil Acheteur* de *Secret Silk* est un tableau de bord personnel, conçu pour que les acheteurs puissent gérer leurs interactions et achats en toute simplicité et confidentialité. Elle rassemble les informations clés et les outils nécessaires pour une expérience fluide, tout en assurant une confidentialité totale.
+
+---
+
+### **Fonctionnalités Clés :**
+
+1. **Informations de Profil et Personnalisation**
+   - **Photo de Profil et Pseudo** : L’acheteur peut ajouter une image (anonyme ou symbolique) et choisir un pseudo pour interagir en toute discrétion.
+   - **Préférences et Intérêts** : Une section de personnalisation permet de sélectionner des préférences et des intérêts pour recevoir des recommandations personnalisées dans la Marketplace et la section jeux.
+   - **Avis et Évaluations** : L’acheteur peut consulter les avis et évaluations laissés pour les articles achetés, contribuant à la transparence et à la qualité de la plateforme.
+
+2. **Gestion des Commandes et Historique des Achats**
+   - **Commandes Actives** : Suivi des commandes en cours, avec des détails sur les articles commandés, les statuts d’expédition, et les options de suivi si disponibles.
+   - **Historique des Achats** : Récapitulatif des achats passés, permettant de retrouver facilement les articles achetés et de laisser des évaluations pour les vendeuses.
+   - **Retours et Litiges** : Possibilité de signaler un problème ou de lancer une demande de retour en cas d’insatisfaction, avec un support dédié pour faciliter le processus.
+
+3. **Messagerie Sécurisée avec les Vendeuses**
+   - **Messages Privés** : Une messagerie privée et sécurisée permet de poser des questions aux vendeuses, personnaliser des commandes, ou obtenir des informations supplémentaires sur les produits.
+   - **Notifications en Temps Réel** : Les acheteurs sont alertés par notification lorsqu’ils reçoivent une réponse de vendeuses ou des mises à jour sur leurs commandes.
+
+4. **Gestion des Paiements et Détails Financiers**
+   - **Méthodes de Paiement** : Les acheteurs peuvent enregistrer des méthodes de paiement sécurisées (carte de crédit, portefeuille numérique) pour simplifier leurs achats.
+   - **Historique des Transactions** : Une vue détaillée de toutes les transactions passées, avec les montants, les dates, et les articles achetés pour une transparence maximale.
+   - **Budget et Suivi des Dépenses** : Option de définir un budget mensuel pour les achats, avec une vue des dépenses totales pour mieux gérer les dépenses sur la plateforme.
+
+5. **Favoris et Listes de Souhaits**
+   - **Articles Favoris** : Les acheteurs peuvent sauvegarder des articles dans leur liste de favoris pour les retrouver facilement et effectuer des achats ultérieurement.
+   - **Listes de Souhaits Personnalisées** : Option de créer plusieurs listes de souhaits (ex. : lingerie, photos, vidéos) pour organiser leurs articles préférés et recevoir des notifications de disponibilité ou de réduction.
+
+6. **Confidentialité et Paramètres du Compte**
+   - **Paramètres de Confidentialité** : L’acheteur peut ajuster les paramètres de confidentialité pour contrôler la visibilité de ses interactions et informations, garantissant une expérience totalement anonyme.
+   - **Gestion des Notifications** : Options pour choisir les notifications à recevoir (ex. : mises à jour de commande, messages de vendeuses, offres spéciales).
+   - **Sécurité et Assistance** : Accès direct au support client pour toute question ou problème, et une section FAQ pour répondre aux questions les plus fréquentes.
+
+---
+
+### **Interface Utilisateur et Expérience**
+
+La page *Profil Acheteur* est conçue pour être conviviale et rassurante :
+   - **Tableau de Bord Intuitif** : Navigation claire entre les sections avec une barre latérale dédiée aux commandes, aux messages, aux préférences, et aux réglages.
+   - **Graphiques et Suivi Visuel** : Des graphiques permettent un suivi des dépenses et des commandes, facilitant la gestion de l’activité de l’acheteur.
+   - **Design Élégant et Discret** : Le design intègre des couleurs apaisantes avec des teintes sombres et des accents discrets, pour rappeler l’aspect confidentiel et sécurisé de *Secret Silk*.
+
+---
+
+### **Résumé**
+
+La page *Profil Acheteur* de *Secret Silk* offre un espace sécurisé et personnalisé pour que les acheteurs puissent gérer leurs achats, interagir avec les vendeuses, et contrôler leur confidentialité. Grâce à une interface intuitive et des fonctionnalités complètes, les acheteurs peuvent profiter pleinement de leur expérience sur la Marketplace, en toute sérénité et discrétion.

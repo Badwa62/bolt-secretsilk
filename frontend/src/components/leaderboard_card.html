@@ -1,0 +1,57 @@
+<div class="leaderboard-card">
+  <div class="leaderboard-rank">
+    <span>#1</span>
+  </div>
+  <div class="leaderboard-user">
+    <img src="/assets/images/users/user_placeholder.jpg" alt="Utilisateur" class="user-avatar" />
+    <span class="user-name">Nom d'Utilisateur</span>
+  </div>
+  <div class="leaderboard-score">
+    <span>Score : 1500</span>
+  </div>
+</div>
+
+<!-- Styles CSS pour la carte de classement -->
+<style>
+  .leaderboard-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    transition: transform 0.3s;
+  }
+  .leaderboard-card:hover {
+    transform: translateY(-5px);
+  }
+  .leaderboard-rank {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f0c14b;
+    margin-right: 1rem;
+  }
+  .leaderboard-user {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  .user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+  }
+  .user-name {
+    font-size: 1rem;
+    color: #1a1a1a;
+  }
+  .leaderboard-score {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555555;
+  }
+</style>

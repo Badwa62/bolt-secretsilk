@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeux Coquins - Secret Silk</title>
+    <link rel="stylesheet" href="/frontend/src/css/global.css">
+    <link rel="stylesheet" href="/frontend/src/css/games.css">
+    <style>
+        body {
+            background-image: url('/frontend/public/assets/images/backgrounds/games_background.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+        }
+
+        .hero {
+            text-align: center;
+            color: #fff;
+            padding: 50px;
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        .carousel {
+            overflow: hidden;
+            width: 100%;
+            display: flex;
+            position: relative;
+        }
+
+        .carousel-content {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .carousel-item {
+            min-width: 100%;
+            text-align: center;
+            color: #fff;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        .carousel-controls {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+
+        .carousel-controls button {
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/frontend/public/assets/images/logos/secretsilk_logo.png" alt="Secret Silk Logo" style="height: 50px;">
+            </div>
+            <ul class="nav-links" style="display: flex; justify-content: center; gap: 20px; list-style: none;">
+                <li><a href="/frontend/public/index.html">Accueil</a></li>
+                <li><a href="/frontend/public/marketplace.html">Marketplace</a></li>
+                <li><a href="/frontend/public/games_home.html">Jeux</a></li>
+                <li><a href="/frontend/public/blog_home.html">Blog</a></li>
+                <li><a href="/frontend/public/login.html">Connexion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h1>Bienvenue dans l'Espace Jeux Coquins</h1>
+        <p>Explorez, jouez et découvrez de nouvelles expériences.</p>
+    </section>
+
+    <!-- CAROUSEL -->
+    <section class="carousel">
+        <div class="carousel-content" id="carousel">
+            <div class="carousel-item">
+                <h2>Jeux Gratuits du Jour</h2>
+                <p>Testez nos jeux gratuits renouvelés quotidiennement.</p>
+                <a href="#free-games" class="btn-primary">Voir les Jeux Gratuits</a>
+            </div>
+            <div class="carousel-item">
+                <h2>Packs Thématiques</h2>
+                <p>Débloquez des scénarios exclusifs pour enrichir vos soirées.</p>
+                <a href="#packs" class="btn-primary">Découvrir les Packs</a>
+            </div>
+            <div class="carousel-item">
+                <h2>Classements et Défis</h2>
+                <p>Participez à nos défis communautaires et gagnez des récompenses.</p>
+                <a href="#leaderboard" class="btn-primary">Voir les Classements</a>
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <button id="prev">&#8249;</button>
+            <button id="next">&#8250;</button>
+        </div>
+    </section>
+
+    <!-- FREE GAMES SECTION -->
+    <section id="free-games">
+        <h2>Jeux Gratuits du Jour</h2>
+        <div class="game-grid">
+            <div class="game-card">
+                <img src="/frontend/public/assets/images/games/famille_en_or.png" alt="Famille en Or">
+                <h3>Famille en Or Coquin</h3>
+                <p>Découvrez les réponses les plus populaires sur des thèmes coquins.</p>
+                <a href="game_details.html" class="btn-secondary">Jouer Maintenant</a>
+            </div>
+            <div class="game-card">
+                <img src="/frontend/public/assets/images/games/exprimer_vos_fantasmes.png" alt="Exprimer Vos Fantasmes">
+                <h3>Exprimer Vos Fantasmes</h3>
+                <p>Répondez à des questions pour explorer vos désirs.</p>
+                <a href="game_details.html" class="btn-secondary">Jouer Maintenant</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- LEADERBOARD -->
+    <section id="leaderboard">
+        <h2>Classements Hebdomadaires</h2>
+        <ul>
+            <li>#1 Alex - 1500 points</li>
+            <li>#2 Sophie - 1400 points</li>
+            <li>#3 Mia - 1300 points</li>
+        </ul>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2024 Secret Silk. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        const carousel = document.getElementById('carousel');
+        let index = 0;
+
+        const updateCarousel = () => {
+            carousel.style.transform = `translateX(-${index * 100}%)`;
+        };
+
+        document.getElementById('next').addEventListener('click', () => {
+            index = (index + 1) % 3;
+            updateCarousel();
+        });
+
+        document.getElementById('prev').addEventListener('click', () => {
+            index = (index - 1 + 3) % 3;
+            updateCarousel();
+        });
+
+        setInterval(() => {
+            index = (index + 1) % 3;
+            updateCarousel();
+        }, 5000);
+    </script>
+</body>
+</html>

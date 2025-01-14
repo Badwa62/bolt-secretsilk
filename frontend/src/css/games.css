@@ -1,0 +1,262 @@
+/* Styles spécifiques pour la section Jeux Coquins et Interactifs de Secret Silk */
+
+/* Body avec Image de Fond */
+body {
+    background: url('/frontend/public/assets/images/backgrounds/games_background.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* En-Tête */
+header {
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff85c2;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #ff85c2;
+}
+
+header .cta {
+    background-color: #ff85c2;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+header .cta:hover {
+    background-color: #ffaecc;
+}
+
+/* Section Héroïque */
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero .btn {
+    background-color: #ff85c2;
+    color: #ffffff;
+    padding: 0.75rem 2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #ffaecc;
+}
+
+/* Grille des Jeux Gratuits */
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+.game-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.game-card h3 {
+    font-size: 1.5rem;
+    color: #ff85c2;
+    margin-bottom: 1rem;
+}
+
+.game-card p {
+    font-size: 1rem;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+}
+
+.game-card .btn {
+    background-color: #ff85c2;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.game-card .btn:hover {
+    background-color: #ffaecc;
+}
+
+/* Packs Thématiques */
+.pack-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+.pack-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pack-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.pack-card h3 {
+    font-size: 1.5rem;
+    color: #ff85c2;
+    margin-bottom: 1rem;
+}
+
+.pack-card p {
+    font-size: 1rem;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+}
+
+.pack-card .btn {
+    background-color: #ff85c2;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.pack-card .btn:hover {
+    background-color: #ffaecc;
+}
+
+/* Classements */
+.leaderboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+.leaderboard-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.leaderboard-item p {
+    font-size: 1rem;
+    color: #1a1a1a;
+}
+
+/* Témoignages */
+.testimonials {
+    padding: 4rem 2rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    text-align: center;
+    border-radius: 15px;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+.testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #ff85c2;
+}
+
+blockquote {
+    flex: 0 0 300px;
+    background-color: #ffffff;
+    color: #1a1a1a;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    margin: 1rem auto;
+    max-width: 600px;
+}
+
+blockquote p {
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+blockquote cite {
+    font-weight: bold;
+    text-align: right;
+    display: block;
+}

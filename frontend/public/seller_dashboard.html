@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Silk - Tableau de Bord Vendeuse</title>
+    <link rel="stylesheet" href="/frontend/src/css/global.css">
+    <link rel="stylesheet" href="/frontend/src/css/dashboard.css">
+</head>
+<body>
+    <!-- En-Tête et Barre de Navigation -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">Secret Silk</a>
+                <p class="slogan">L'Élégance de l'Intimité et de la Découverte</p>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="marketplace.html">Marketplace</a></li>
+                    <li><a href="games_home.html">Jeux Coquins</a></li>
+                    <li><a href="blog_home.html">Blog Sexo</a></li>
+                    <li><a href="account.html">Mon Compte</a></li>
+                    <li><a href="store.html">Boutique</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icons">
+                <input type="text" placeholder="Rechercher..." class="search-bar">
+                <a href="cart.html" class="cart-icon">🛒</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Tableau de Bord Vendeuse -->
+    <section class="seller-dashboard">
+        <h1>Tableau de Bord Vendeuse</h1>
+        <div class="dashboard-container">
+            <!-- Section Statistiques -->
+            <div class="dashboard-section stats">
+                <h2>Statistiques de Vente</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>Total des Ventes</h3>
+                        <p><strong>125</strong> Articles Vendus</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Revenus</h3>
+                        <p><strong>3 750,00 €</strong></p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Nombre d'Avis</h3>
+                        <p><strong>45</strong> Avis Reçus</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section Produits -->
+            <div class="dashboard-section products">
+                <h2>Vos Produits</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="/assets/images/products/product1.jpg" alt="Produit 1">
+                        <p class="product-name">Sous-vêtements Intimes</p>
+                        <p class="product-price">Prix : 50,00 €</p>
+                        <a href="edit_product.html" class="btn-secondary">Modifier</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="/assets/images/products/product2.jpg" alt="Produit 2">
+                        <p class="product-name">Vidéos Personnalisées</p>
+                        <p class="product-price">Prix : 100,00 €</p>
+                        <a href="edit_product.html" class="btn-secondary">Modifier</a>
+                    </div>
+                </div>
+                <a href="add_product.html" class="btn-primary">Ajouter un Nouveau Produit</a>
+            </div>
+
+            <!-- Section Commandes -->
+            <div class="dashboard-section orders">
+                <h2>Commandes Récentes</h2>
+                <table class="orders-table">
+                    <thead>
+                        <tr>
+                            <th>Commande #</th>
+                            <th>Produit</th>
+                            <th>Quantité</th>
+                            <th>Total</th>
+                            <th>Statut</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>10234</td>
+                            <td>Sous-vêtements Intimes</td>
+                            <td>1</td>
+                            <td>50,00 €</td>
+                            <td>En Attente</td>
+                        </tr>
+                        <tr>
+                            <td>10235</td>
+                            <td>Vidéos Personnalisées</td>
+                            <td>2</td>
+                            <td>200,00 €</td>
+                            <td>Livré</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de Page -->
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="marketplace.html">Marketplace</a></li>
+                <li><a href="games_home.html">Jeux Coquins</a></li>
+                <li><a href="blog_home.html">Blog Sexo</a></li>
+                <li><a href="account.html">Mon Compte</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <p>Suivez-nous :</p>
+            <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+        </div>
+        <p class="copyright">&copy; 2024 Secret Silk. Tous droits réservés.</p>
+    </footer>
+     <script src="/frontend/src/js/global.js"></script>
+     <script src="/frontend/src/js/dashboard.js"></script>
+</body>
+</html>

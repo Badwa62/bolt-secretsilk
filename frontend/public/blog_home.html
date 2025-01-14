@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Sexo - Secret Silk</title>
+    <link rel="stylesheet" href="/frontend\src\css\global.css">
+    <link rel="stylesheet" href="/frontend\src\css\blog.css">
+</head>
+<body style="background-image: url('/frontend/public/assets/images/backgrounds/blog_background.png'); background-size: cover; background-attachment: fixed;">
+    <!-- En-Tête -->
+    <header>
+        <div class="nav-container" style="display: flex; align-items: center; justify-content: space-between;">
+            <div class="logo" style="flex: 0 0 auto;">
+                <a href="#">Secret Silk</a>
+            </div>
+            <nav style="flex: 1; text-align: center;">
+                <ul class="nav-links" style="display: inline-flex; gap: 20px; list-style: none; padding: 0;">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="marketplace.html">Marketplace</a></li>
+                    <li><a href="games_home.html">Jeux</a></li>
+                    <li><a href="blog_home.html">Blog</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                </ul>
+            </nav>
+            <button class="cta" style="flex: 0 0 auto;">Poser une Question</button>
+        </div>
+    </header>
+
+    <!-- Section Héroïque -->
+    <section class="hero">
+        <h1>Explorez le Blog Sexo</h1>
+        <p>Éducation, bien-être et inspiration pour enrichir votre vie intime.</p>
+        <div class="hero-carousel">
+            <div class="carousel-item" style="background: rgba(0,0,0,0.7); padding: 20px;">
+                <h2>Articles Populaires</h2>
+                <p>"Découvrez les articles les plus lus et appréciés par notre communauté."</p>
+                <a href="#popular-articles" class="btn">Voir les Articles</a>
+            </div>
+            <div class="carousel-item" style="background: rgba(0,0,0,0.7); padding: 20px;">
+                <h2>Posez vos Questions</h2>
+                <p>"Nos experts répondent à vos interrogations en toute confidentialité."</p>
+                <a href="ask_expert.html" class="btn">Poser une Question</a>
+            </div>
+            <div class="carousel-item" style="background: rgba(0,0,0,0.7); padding: 20px;">
+                <h2>Événements à Venir</h2>
+                <p>"Participez à nos webinaires et ateliers interactifs."</p>
+                <a href="events.html" class="btn">Voir les Événements</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles Populaires -->
+    <section id="popular-articles" class="section">
+        <h2>Articles Populaires</h2>
+        <div class="article-grid">
+            <div class="article-card">
+                <img src="/frontend/assets/images/articles/article1.jpg" alt="Article 1">
+                <h3>Renforcer l’Intimité dans le Couple</h3>
+                <p>Découvrez des conseils pratiques pour une relation épanouissante.</p>
+                <a href="article_details.html" class="btn">Lire l’Article</a>
+            </div>
+            <div class="article-card">
+                <img src="/frontend/assets/images/articles/article2.jpg" alt="Article 2">
+                <h3>Explorer ses Fantasmes en Toute Sécurité</h3>
+                <p>Des astuces pour partager et vivre vos désirs.</p>
+                <a href="article_details.html" class="btn">Lire l’Article</a>
+            </div>
+            <div class="article-card">
+                <img src="/frontend/assets/images/articles/article3.jpg" alt="Article 3">
+                <h3>Bien-être et Santé Sexuelle</h3>
+                <p>Des informations essentielles pour une vie intime équilibrée.</p>
+                <a href="article_details.html" class="btn">Lire l’Article</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catégories Thématiques -->
+    <section id="categories" class="section">
+        <h2>Catégories Thématiques</h2>
+        <div class="category-grid">
+            <div class="category-item">
+                <h3>Bien-être Intime</h3>
+                <p>Des astuces pour améliorer votre bien-être personnel.</p>
+                <a href="categories.html" class="btn">Explorer</a>
+            </div>
+            <div class="category-item">
+                <h3>Relations de Couple</h3>
+                <p>Renforcez vos liens et votre communication.</p>
+                <a href="categories.html" class="btn">Explorer</a>
+            </div>
+            <div class="category-item">
+                <h3>Éducation Sexuelle</h3>
+                <p>Apprenez les bases et explorez des sujets avancés.</p>
+                <a href="categories.html" class="btn">Explorer</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Questions aux Experts -->
+    <section id="ask-experts" class="section">
+        <h2>Questions aux Experts</h2>
+        <p>Posez vos questions anonymement et obtenez des réponses d’experts qualifiés.</p>
+        <a href="ask_expert.html" class="btn">Poser une Question</a>
+    </section>
+
+    <!-- Témoignages -->
+    <section class="testimonials">
+        <h2>Ce que disent nos lecteurs</h2>
+        <blockquote>
+            <p>"Une mine d’informations et de conseils pour enrichir ma vie personnelle !"</p>
+            <cite>- Lecteur Anonyme</cite>
+        </blockquote>
+        <blockquote>
+            <p>"J’ai adoré les articles sur les relations de couple, très utiles et bien écrits."</p>
+            <cite>- Lectrice Satisfaite</cite>
+        </blockquote>
+    </section>
+
+    <!-- Pied de Page -->
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="privacy.html">Confidentialité</a></li>
+                <li><a href="support.html">Assistance</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2024 Secret Silk. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Inclusion des Scripts -->
+    <script src="/frontend\src\js\global.js"></script>
+    <script src="/frontend\src\js\blog.js"></script>
+</body>
+</html>

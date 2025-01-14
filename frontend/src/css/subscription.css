@@ -1,0 +1,168 @@
+/* Styles pour la page d'abonnement de Secret Silk */
+
+/* Section Abonnement Premium */
+.subscription {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.subscription h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #1a1a1a;
+}
+
+.subscription p {
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+    color: #333;
+}
+
+/* Avantages de l'Abonnement Premium */
+.subscription-benefits {
+    background-color: #f8f8f8;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 4rem;
+}
+
+.subscription-benefits h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #1a1a1a;
+}
+
+.subscription-benefits ul {
+    list-style-type: disc;
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.subscription-benefits li {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+/* Plans d'Abonnement */
+.subscription-plans {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.plan-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.plan-card:hover {
+    transform: translateY(-5px);
+}
+
+.plan-card h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: #1a1a1a;
+}
+
+.plan-card p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #ff69b4;
+}
+
+.plan-card .btn-primary {
+    display: inline-block;
+    background-color: #ff69b4;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.plan-card .btn-primary:hover {
+    background-color: #ff85c2;
+}
+
+/* Témoignages des Membres Premium */
+.premium-testimonials {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.premium-testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #1a1a1a;
+}
+
+.testimonials-carousel {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    padding: 1rem;
+}
+
+blockquote {
+    flex: 0 0 300px;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+blockquote p {
+    font-style: italic;
+    color: #333;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+/* Section FAQ */
+.faq {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.faq h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #1a1a1a;
+    text-align: center;
+}
+
+.faq-item {
+    margin-bottom: 2rem;
+}
+
+.faq-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #1a1a1a;
+}
+
+.faq-item p {
+    font-size: 1.25rem;
+    color: #333;
+}

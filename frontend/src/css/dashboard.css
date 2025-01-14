@@ -1,0 +1,175 @@
+/* Styles pour les tableaux de bord acheteur et vendeuse de Secret Silk */
+
+/* Section Générale des Tableaux de Bord */
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+}
+
+.dashboard-section {
+    margin-bottom: 4rem;
+}
+
+.dashboard-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #1a1a1a;
+}
+
+/* Tableau de Commandes */
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.orders-table th, .orders-table td {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+}
+
+.orders-table th {
+    background-color: #f0f0f0;
+    color: #1a1a1a;
+    font-weight: bold;
+}
+
+.orders-table td {
+    background-color: #ffffff;
+}
+
+/* Favoris (Acheteur) */
+.favorites-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.favorite-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.favorite-card img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.favorite-card p {
+    padding: 1rem;
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+.favorite-card a {
+    display: block;
+    background-color: #e3b9ff;
+    color: #1a1a1a;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    border-radius: 0 0 8px 8px;
+    transition: background-color 0.3s ease;
+}
+
+.favorite-card a:hover {
+    background-color: #c799e6;
+}
+
+/* Avis Donnés (Acheteur) */
+.reviews-list {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review-item {
+    margin-bottom: 2rem;
+    font-style: italic;
+    color: #333;
+}
+
+.review-item cite {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+/* Statistiques de Vente (Vendeuse) */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.stat-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card h3 {
+    margin-bottom: 1rem;
+    color: #1a1a1a;
+}
+
+.stat-card p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff69b4;
+}
+
+/* Produits (Vendeuse) */
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.product-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-card img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-card p {
+    padding: 1rem;
+    color: #1a1a1a;
+}
+
+.product-card .product-price {
+    font-weight: bold;
+    color: #ff69b4;
+}
+
+.product-card a {
+    display: block;
+    background-color: #e3b9ff;
+    color: #1a1a1a;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    border-radius: 0 0 8px 8px;
+    transition: background-color 0.3s ease;
+}
+
+.product-card a:hover {
+    background-color: #c799e6;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Silk - Tableau de Bord Acheteur</title>
+    <link rel="stylesheet" href="/src/css/global.css">
+    <link rel="stylesheet" href="/src/css/dashboard.css">
+</head>
+<body>
+    <!-- En-Tête et Barre de Navigation -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">Secret Silk</a>
+                <p class="slogan">L'Élégance de l'Intimité et de la Découverte</p>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="marketplace.html">Marketplace</a></li>
+                    <li><a href="games_home.html">Jeux Coquins</a></li>
+                    <li><a href="blog_home.html">Blog Sexo</a></li>
+                    <li><a href="account.html">Mon Compte</a></li>
+                    <li><a href="store.html">Boutique</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icons">
+                <input type="text" placeholder="Rechercher..." class="search-bar">
+                <a href="cart.html" class="cart-icon">🛒</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Tableau de Bord Acheteur -->
+    <section class="buyer-dashboard">
+        <h1>Tableau de Bord Acheteur</h1>
+        <div class="dashboard-container">
+            <!-- Section Commandes -->
+            <div class="dashboard-section orders">
+                <h2>Vos Commandes</h2>
+                <table class="orders-table">
+                    <thead>
+                        <tr>
+                            <th>Commande #</th>
+                            <th>Produit</th>
+                            <th>Quantité</th>
+                            <th>Total</th>
+                            <th>Statut</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>20256</td>
+                            <td>Sous-vêtements Intimes</td>
+                            <td>1</td>
+                            <td>50,00 €</td>
+                            <td>En Cours de Livraison</td>
+                        </tr>
+                        <tr>
+                            <td>20257</td>
+                            <td>Vidéos Personnalisées</td>
+                            <td>2</td>
+                            <td>200,00 €</td>
+                            <td>Livré</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Section Favoris -->
+            <div class="dashboard-section favorites">
+                <h2>Vos Produits Favoris</h2>
+                <div class="favorites-grid">
+                    <div class="favorite-card">
+                        <img src="/assets/images/products/product1.jpg" alt="Produit Favori 1">
+                        <p class="product-name">Sous-vêtements Intimes</p>
+                        <a href="product_details.html" class="btn-secondary">Voir Détails</a>
+                    </div>
+                    <div class="favorite-card">
+                        <img src="/assets/images/products/product2.jpg" alt="Produit Favori 2">
+                        <p class="product-name">Vidéos Personnalisées</p>
+                        <a href="product_details.html" class="btn-secondary">Voir Détails</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section Avis Donnés -->
+            <div class="dashboard-section reviews">
+                <h2>Vos Avis</h2>
+                <div class="reviews-list">
+                    <div class="review-item">
+                        <p>"Produit de qualité, très confortable et discret."</p>
+                        <cite>- Avis sur Sous-vêtements Intimes</cite>
+                    </div>
+                    <div class="review-item">
+                        <p>"Super vidéo, exactement comme je l'avais demandé."</p>
+                        <cite>- Avis sur Vidéos Personnalisées</cite>
+                    </div>
+                </div>
+                <a href="add_review.html" class="btn-primary">Ajouter un Avis</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de Page -->
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="marketplace.html">Marketplace</a></li>
+                <li><a href="games_home.html">Jeux Coquins</a></li>
+                <li><a href="blog_home.html">Blog Sexo</a></li>
+                <li><a href="account.html">Mon Compte</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <p>Suivez-nous :</p>
+            <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+        </div>
+        <p class="copyright">&copy; 2024 Secret Silk. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

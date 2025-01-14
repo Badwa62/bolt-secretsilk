@@ -1,0 +1,49 @@
+<div class="category-filter">
+  <h4>Filtrer par Catégorie</h4>
+  <ul class="category-list">
+    <li><button class="category-button" data-category="all">Tous</button></li>
+    <li><button class="category-button" data-category="intimité">Intimité</button></li>
+    <li><button class="category-button" data-category="jeux">Jeux Coquins</button></li>
+    <li><button class="category-button" data-category="éducation">Éducation & Bien-être</button></li>
+    <li><button class="category-button" data-category="abonnements">Abonnements Premium</button></li>
+  </ul>
+</div>
+
+<!-- Styles CSS pour le filtre de catégories -->
+<style>
+  .category-filter {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+  }
+  .category-filter h4 {
+    font-size: 1.25rem;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+  }
+  .category-list {
+    list-style: none;
+    padding: 0;
+  }
+  .category-list li {
+    margin-bottom: 0.5rem;
+  }
+  .category-button {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    transition: background-color 0.3s;
+  }
+  .category-button:hover {
+    background-color: #f0c14b;
+  }
+</style>

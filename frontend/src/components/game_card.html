@@ -1,0 +1,62 @@
+<div class="game-card">
+  <div class="game-image">
+    <img src="/assets/images/games/game_placeholder.jpg" alt="Jeu Coquin" />
+  </div>
+  <div class="game-details">
+    <h4 class="game-title">Nom du Jeu</h4>
+    <p class="game-description">Description courte du jeu coquin, expliquant les règles et les thèmes abordés.</p>
+    <div class="game-actions">
+      <button class="play-now">Jouer Maintenant</button>
+      <button class="view-details">Voir Détails</button>
+    </div>
+  </div>
+</div>
+
+<!-- Styles CSS pour la carte de jeu -->
+<style>
+  .game-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  .game-card:hover {
+    transform: translateY(-5px);
+  }
+  .game-image img {
+    width: 100%;
+    height: auto;
+  }
+  .game-details {
+    padding: 1rem;
+  }
+  .game-title {
+    font-size: 1.25rem;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+  }
+  .game-description {
+    font-size: 0.9rem;
+    color: #555555;
+    margin-bottom: 1rem;
+  }
+  .game-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  .game-actions button {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .game-actions button:hover {
+    background-color: #f0c14b;
+  }
+</style>

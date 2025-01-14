@@ -1,0 +1,55 @@
+Voici une description détaillée de la page *Profil Vendeuse* pour la Marketplace de *Secret Silk*. Cette page est conçue pour offrir aux vendeuses un espace personnalisé, sécurisé, et professionnel où elles peuvent gérer leurs articles, interagir avec les acheteurs, et suivre leurs performances de vente.
+
+---
+
+### **Page Profil Vendeuse : Description**
+
+La page *Profil Vendeuse* de *Secret Silk* est un tableau de bord personnel qui permet aux vendeuses de gérer facilement leur activité sur la Marketplace. Conçue pour être intuitive et sécurisée, cette page offre une vue d’ensemble complète de tous les outils dont les vendeuses ont besoin pour créer, promouvoir, et vendre leurs produits en toute confidentialité.
+
+---
+
+### **Fonctionnalités Clés :**
+
+1. **Présentation et Bio Personnalisée**
+   - **Photo de Profil** : La vendeuse peut télécharger une photo (anonyme ou symbolique si elle le souhaite) pour représenter son profil.
+   - **Pseudo et Bio** : Un pseudo est utilisé pour préserver l’anonymat, et une courte biographie permet à la vendeuse de se présenter et de donner des informations sur son style ou les produits qu’elle propose.
+   - **Évaluations et Notes** : Un système d’évaluation basé sur les avis des acheteurs est affiché, montrant la moyenne des notes et les commentaires récents pour renforcer la crédibilité.
+
+2. **Gestion des Produits**
+   - **Liste des Articles Actifs et Archivés** : Vue d’ensemble des produits actuellement en vente, ainsi que des produits expirés ou retirés.
+   - **Ajout et Modification d’Articles** : Options pour ajouter de nouveaux produits ou modifier les descriptions, les photos, et les prix des articles existants. Chaque article peut être accompagné de photos et d’une description détaillée.
+   - **Catégorisation et Packs Thématiques** : Les vendeuses peuvent organiser leurs articles par catégorie (sous-vêtements, photos, vidéos) et créer des packs thématiques pour offrir des options groupées.
+
+3. **Suivi des Commandes et Historique des Ventes**
+   - **Commandes en Cours** : Une section dédiée permet de suivre les commandes en attente de validation ou d’expédition.
+   - **Historique des Ventes** : La vendeuse peut consulter ses ventes passées, les détails des commandes, et les avis laissés par les acheteurs.
+   - **Statistiques et Performances** : Des graphiques simplifiés montrent les performances de vente sur différentes périodes (semaine, mois, année) avec des données sur les articles les plus populaires.
+
+4. **Messagerie Sécurisée avec les Acheteurs**
+   - **Messages Privés** : Un système de messagerie permet aux acheteurs et vendeuses de communiquer en toute confidentialité pour poser des questions ou personnaliser des commandes.
+   - **Notifications** : Les vendeuses reçoivent des notifications lorsqu’elles reçoivent un message ou une nouvelle commande, pour les tenir informées en temps réel.
+
+5. **Gestion des Paiements et Gains**
+   - **Solde et Gains** : Affichage du solde actuel, avec un historique détaillé des transactions et des gains accumulés.
+   - **Demande de Retraits** : La vendeuse peut initier un retrait de ses gains, avec des options de retrait vers des comptes bancaires ou portefeuilles numériques sécurisés.
+   - **Résumé des Commissions** : La page affiche la commission prélevée par la plateforme sur chaque vente, pour assurer une transparence complète.
+
+6. **Paramètres et Confidentialité**
+   - **Gestion du Compte** : Options pour mettre à jour les informations de compte, changer le mot de passe, et configurer les notifications.
+   - **Confidentialité et Anonymat** : Paramètres pour gérer le niveau de confidentialité, avec des options pour masquer certains détails ou photos.
+   - **Options de Support et Aide** : Accès rapide à l’assistance de la plateforme et à une section FAQ pour répondre aux questions courantes.
+
+---
+
+### **Interface Utilisateur et Expérience**
+
+La page *Profil Vendeuse* est conçue pour être à la fois élégante et fonctionnelle :
+   - **Navigation Intuitive** : Les sections sont facilement accessibles depuis une barre latérale, avec des icônes claires pour chaque fonctionnalité.
+   - **Tableaux de Bord Visuels** : Des graphiques et des tableaux permettent une lecture rapide des performances de vente et de l’évolution des gains.
+   - **Design Moderne et Sûr** : Le design intègre des couleurs apaisantes (teintes de violet et de rose) et un fond sombre pour rappeler l’identité de *Secret Silk*, tout en créant une ambiance de confidentialité et de sécurité.
+
+---
+
+### **Résumé**
+
+La page *Profil Vendeuse* de *Secret Silk* est un espace complet et sécurisé qui offre aux vendeuses toutes les ressources nécessaires pour réussir sur la Marketplace. Ce tableau de bord personnel leur permet de gérer leurs ventes, de communiquer avec leurs acheteurs, et de suivre leur progression de manière simple et anonyme.

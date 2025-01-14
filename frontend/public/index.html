@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Secret Silk - Une plateforme complète pour explorer l'intimité, la sécurité et le bien-être à travers la Marketplace, les Jeux Coquins et le Blog Sexo.">
+    <title>Secret Silk</title>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="/frontend/src/css/global.css">
+    <!-- Page-Specific CSS -->
+    <link rel="stylesheet" href="/frontend/src/css/index.css">
+    <style>
+        /* Ensure background image covers entire viewport */
+        #hero {
+            background-image: url('/frontend/public/assets/images/backgrounds/home_background.png');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+
+        .carousel {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .carousel-content {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            width: 300%;
+        }
+
+        .carousel-item {
+            flex: 1 0 100%;
+            text-align: center;
+            color: #fff;
+            padding: 2rem;
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        .carousel-controls {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+
+        .carousel-controls button {
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body class="index-page">
+    <!-- BUTTON FLOATING: Secret Quest -->
+    <button id="secret-quest-btn" class="floating-button">
+        <a href="/frontend/public/secretquest.html">
+            <img src="/frontend/public/assets/images/logos/secretquest.png" alt="Secret Quest">
+        </a>
+    </button>
+
+    <!-- HEADER: Navigation principale -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/frontend/public/assets/images/logo.png" alt="Secret Silk Logo" style="height: 50px;">
+            </div>
+            <ul class="nav-links" style="display: flex; justify-content: center; gap: 2rem;">
+                <li><a href="/frontend/public/marketplace.html">Marketplace</a></li>
+                <li><a href="/frontend/public/games_home.html">Jeux Coquins</a></li>
+                <li><a href="/frontend/public/blog_home.html">Blog Sexo</a></li>
+                <li><a href="/frontend/public/login.html">Connexion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SECTION PRINCIPALE: Accueil -->
+    <main>
+        <!-- MODERN SLIDING CAROUSEL -->
+        <section id="hero">
+            <div class="carousel">
+                <div class="carousel-content" id="carousel-content">
+                    <div class="carousel-item">
+                        <h2>Explorez la Marketplace</h2>
+                        <p>Un espace sécurisé pour acheter et vendre des articles intimes.</p>
+                        <a href="/frontend/public/marketplace.html" class="btn-primary">Visiter la Marketplace</a>
+                    </div>
+                    <div class="carousel-item">
+                        <h2>Classement des Vendeuses</h2>
+                        <p>Découvrez les vendeuses les mieux notées cette semaine.</p>
+                        <ul>
+                            <li>1. SarahLace - 4.9/5</li>
+                            <li>2. RedVelvet - 4.8/5</li>
+                            <li>3. SilkyDreams - 4.7/5</li>
+                        </ul>
+                    </div>
+                    <div class="carousel-item">
+                        <h2>Dernières Actualités</h2>
+                        <p>Parties en cours et activités récentes sur le blog.</p>
+                        <ul>
+                            <li>20 nouvelles connexions aujourd'hui</li>
+                            <li>15 discussions lancées sur le forum</li>
+                            <li>30 articles lus par les membres</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button id="prev">&#8249;</button>
+                    <button id="next">&#8250;</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="feature">
+                <h2>Marketplace Sécurisée</h2>
+                <p>Un espace pour acheter et vendre des articles intimes de manière confidentielle.</p>
+                <a href="/frontend/public/marketplace.html" class="link">En savoir plus</a>
+            </div>
+            <div class="feature">
+                <h2>Jeux Coquins et Interactifs</h2>
+                <p>Pimentez vos soirées avec des jeux ludiques et immersifs.</p>
+                <a href="/frontend/public/games_home.html" class="link">Découvrir les Jeux</a>
+            </div>
+            <div class="feature">
+                <h2>Blog Sexo</h2>
+                <p>Éduquez-vous avec des articles, des conseils et des ressources éducatives.</p>
+                <a href="/frontend/public/blog_home.html" class="link">Lire le Blog</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER: Liens et informations -->
+    <footer>
+        <div class="footer-links">
+            <a href="/frontend/public/privacy_policy.html">Politique de Confidentialité</a>
+            <a href="/frontend/public/terms_of_service.html">Conditions d'Utilisation</a>
+            <a href="/frontend/public/contact.html">Contact</a>
+        </div>
+        <p>&copy; 2024 Secret Silk. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Global JS -->
+    <script src="/frontend/src/js/global.js"></script>
+    <!-- Page-Specific JS -->
+    <script>
+        const carousel = document.getElementById('carousel-content');
+        let index = 0;
+
+        const updateCarousel = () => {
+            const width = carousel.clientWidth / 3;
+            carousel.style.transform = `translateX(-${index * width}px)`;
+        };
+
+        document.getElementById('next').addEventListener('click', () => {
+            index = (index + 1) % 3;
+            updateCarousel();
+        });
+
+        document.getElementById('prev').addEventListener('click', () => {
+            index = (index - 1 + 3) % 3;
+            updateCarousel();
+        });
+
+        setInterval(() => {
+            index = (index + 1) % 3;
+            updateCarousel();
+        }, 5000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+### **Discussion 6 : Fichiers CSS pour le Design**
+
+**Prompt** :  
+"Afin de styliser les pages HTML créées, nous allons définir les styles CSS de base et spécifiques pour chaque section de Secret Silk.
+
+1. Créez les fichiers CSS suivants dans `/frontend/src/css/` :
+   - `global.css` : Styles globaux pour l’ensemble du site.
+   - `marketplace.css` : Styles pour la Marketplace.
+   - `games.css` : Styles pour la section des jeux.
+   - `blog.css` : Styles pour le blog.
+
+Ces styles donneront un design cohérent au site en suivant l’ambiance intime et élégante de Secret Silk."
+
+Voici une structure de **Fichiers de Référence** pour chaque grande partie du site *Secret Silk*. Ces documents de référence permettent de garder chaque composant en phase avec le projet global et limitent les besoins de relecture, tout en assurant la cohérence des interactions entre les différents modules. Vous pourrez les utiliser comme guide aux moments critiques (ex. : lors de la création de nouveaux contrôleurs ou modèles).
+
+---
+
+### **1. Document de Référence pour le Backend**
+
+#### **Structure et Usage**
+   - **Fichier** : `Backend_Reference_Guide.md`
+   - **Contenu** :
+     1. **Configuration Initiale** :
+        - Explication du serveur et des fichiers de configuration (`server.js`, `config.js`, `secrets.js`).
+        - Instructions pour ajouter de nouvelles configurations ou secrets.
+
+     2. **Modèles (Models)** :
+        - Liste et structure des principaux modèles de données (`User`, `Product`, `Game`, `Article`, `Order`, `Notification`).
+        - Explication des relations entre les modèles (ex. : `Order` est lié à `User` et `Product`).
+        - Instructions pour ajouter de nouveaux modèles ou relations.
+        
+     3. **Contrôleurs (Controllers)** :
+        - Liste des contrôleurs et leur rôle (ex. : `marketplaceController.js` pour gérer les produits).
+        - Description des méthodes principales (ex. : `addProduct`, `getProduct`).
+        - Lien entre les contrôleurs et les modèles pour garder les interactions cohérentes.
+        
+     4. **Routes** :
+        - Détail des routes principales (ex. : `/api/marketplace`, `/api/games`).
+        - Format pour ajouter de nouvelles routes ou sections API.
+        
+     5. **Middleware** :
+        - Explication des middleware de sécurité (`authMiddleware`, `errorMiddleware`).
+        - Guide pour ajouter de nouveaux middleware (ex. : validations personnalisées).
+
+#### **Usage** :
+Utilisez ce fichier chaque fois que vous modifiez ou ajoutez un modèle, un contrôleur, une route ou un middleware pour vérifier la cohérence. Ce guide sert de référence pour comprendre comment chaque module backend est structuré et interagit avec les autres.
+
+---
+
+### **2. Document de Référence pour le Frontend**
+
+#### **Structure et Usage**
+   - **Fichier** : `Frontend_Reference_Guide.md`
+   - **Contenu** :
+     1. **Pages HTML Principales** :
+        - Liste des pages principales (`index.html`, `marketplace.html`, `games_home.html`, `blog_home.html`).
+        - Description de la structure de chaque page et des sections importantes (ex. : en-tête, sections produits, pied de page).
+        
+     2. **Fichiers CSS** :
+        - Explication des fichiers CSS globaux et spécifiques (`global.css`, `marketplace.css`, `games.css`, `blog.css`).
+        - Guide pour appliquer les styles globaux et instructions pour ajouter de nouveaux styles de page.
+        
+     3. **JavaScript pour Interactivité** :
+        - Liste des scripts JavaScript (`global.js`, `marketplace.js`, `games.js`, `blog.js`).
+        - Explication des fonctions principales dans chaque fichier et des fonctionnalités interactives qu'elles gèrent (ex. : ajout au panier, filtres).
+        
+     4. **Composants Réutilisables** :
+        - Détail des composants HTML (`header.html`, `footer.html`, `product_card.html`, `game_card.html`, `article_card.html`).
+        - Instructions pour intégrer ou modifier un composant dans une page.
+
+#### **Usage** :
+Consultez ce document avant de créer ou modifier une page, un style, ou un composant. Il assure que chaque élément frontend respecte la structure, le style, et la cohérence visuelle globale de *Secret Silk*.
+
+---
+
+### **3. Document de Référence pour la Base de Données**
+
+#### **Structure et Usage**
+   - **Fichier** : `Database_Reference_Guide.md`
+   - **Contenu** :
+     1. **Migrations** :
+        - Liste des fichiers de migration pour chaque table ou collection (ex. : `users`, `products`, `games`, `orders`).
+        - Explication de la structure de chaque table et des relations entre elles (ex. : clé étrangère entre `orders` et `users`).
+
+     2. **Données de Démarrage (Seeders)** :
+        - Explication des données de démarrage pour chaque modèle (ex. : utilisateurs et produits de test).
+        - Guide pour ajouter de nouvelles données de test de manière cohérente avec le projet.
+
+     3. **Configuration de la Base de Données** :
+        - Explications sur la connexion et les configurations principales (ex. : options de connexion dans `config.js`).
+        - Instructions pour ajouter de nouvelles configurations ou pour connecter un environnement de test.
+
+#### **Usage** :
+Consultez ce fichier lors de la création ou de la modification des tables, des relations ou des données de démarrage. Cela garantit que la structure des données reste cohérente avec le backend et le frontend.
+
+---
+
+### **4. Document de Référence pour les Tests**
+
+#### **Structure et Usage**
+   - **Fichier** : `Testing_Reference_Guide.md`
+   - **Contenu** :
+     1. **Types de Tests** :
+        - Distinguer les tests d’intégration et les tests unitaires.
+        - Explication des objectifs et des scénarios couverts par chaque type de test.
+
+     2. **Tests d’Intégration** :
+        - Liste des tests d’intégration pour les fonctionnalités principales (authentification, ajout de produit, progression de jeu).
+        - Guide pour créer des tests cohérents pour les contrôleurs et les routes.
+        
+     3. **Tests Unitaires** :
+        - Liste des tests unitaires pour vérifier la logique des contrôleurs.
+        - Instructions pour ajouter de nouveaux tests ou vérifier des scénarios spécifiques.
+
+#### **Usage** :
+Utilisez ce document pour organiser et structurer les tests afin qu’ils couvrent toutes les fonctionnalités de manière exhaustive. Cela facilite la validation des fonctionnalités critiques de *Secret Silk*.
+
+---
+
+### **5. Document de Référence pour les Interactions et Cohérence des Modules**
+
+#### **Structure et Usage**
+   - **Fichier** : `Module_Interaction_Guide.md`
+   - **Contenu** :
+     1. **Interactions entre Backend et Frontend** :
+        - Explication des endpoints API utilisés par le frontend pour accéder aux données.
+        - Guide pour connecter les données du backend aux pages frontend.
+
+     2. **Suivi de la Cohérence entre les Sections** :
+        - Liste des sections principales (Marketplace, Jeux, Blog) et des interactions clés (ex. : panier lié aux produits).
+        - Recommandations pour maintenir la cohérence des données entre les sections.
+
+     3. **Modifications Futures** :
+        - Instructions pour maintenir la cohérence si des modifications ou nouvelles fonctionnalités sont ajoutées.
+        
+#### **Usage** :
+Ce document sert de guide pour comprendre comment chaque module interagit avec les autres. À chaque ajout de fonctionnalité ou modification, référez-vous à ce guide pour garder la cohérence de l’ensemble.
+
+---
+
+Ces fichiers de référence couvrent chaque aspect du projet et servent de guide à chaque étape de création et de modification. Vous pouvez les consulter aux moments clés pour maintenir la cohérence du site *Secret Silk* et limiter le besoin de relecture constante.

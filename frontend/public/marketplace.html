@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace - Secret Silk</title>
+    <link rel="stylesheet" href="/frontend\src\css\global.css">
+    <link rel="stylesheet" href="/frontend\src\css\market.css">
+    <style>
+        .carousel-container {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .carousel-slide {
+            display: flex;
+            animation: slide 15s infinite;
+        }
+
+        .carousel-item {
+            flex: none;
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        @keyframes slide {
+            0% {transform: translateX(0);}
+            25% {transform: translateX(-100%);}
+            50% {transform: translateX(-200%);}
+            75% {transform: translateX(-300%);}
+            100% {transform: translateX(0);}
+        }
+    </style>
+</head>
+<body style="background-image: url('/frontend/public/assets/images/backgrounds/market_background.png'); background-size: cover; background-attachment: fixed;">
+    <!-- En-tête -->
+    <header>
+        <div class="nav-container" style="display: flex; align-items: center; justify-content: center;">
+            <div class="logo" style="flex: 0 0 auto; margin-right: 20px;">
+                <a href="#">
+                    <img src="/frontend/public/assets/images/logo_small.png" alt="Secret Silk Logo" style="height: 50px;">
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links" style="display: flex; justify-content: center; gap: 20px; list-style: none; padding: 0;">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="marketplace.html">Marketplace</a></li>
+                    <li><a href="games_home.html">Jeux</a></li>
+                    <li><a href="blog_home.html">Blog</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                    <li><a href="login.html">Connexion/Inscription</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Carousel -->
+    <div class="carousel-container">
+        <div class="carousel-slide">
+            <div class="carousel-item">
+                <h2>Offres spéciales</h2>
+                <p>"Profitez de remises exclusives sur nos meilleures ventes."</p>
+            </div>
+            <div class="carousel-item">
+                <h2>Produits populaires</h2>
+                <p>"Découvrez les articles préférés de nos utilisateurs."</p>
+            </div>
+            <div class="carousel-item">
+                <h2>Nouveaux arrivages</h2>
+                <p>"Explorez les dernières nouveautés de notre Marketplace."</p>
+            </div>
+            <div class="carousel-item">
+                <h2>Vendeuses vedettes</h2>
+                <p>"Rencontrez les meilleures créatrices de contenu de la plateforme."</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section des produits -->
+    <section class="products-section">
+        <h2>Produits en Vedette</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="/frontend/public/assets/images/products/product1.jpg" alt="Produit 1">
+                <h3>Produit 1</h3>
+                <p>Description brève du produit.</p>
+                <a href="product_details.html" class="btn">Voir le produit</a>
+            </div>
+            <div class="product-card">
+                <img src="/frontend/public/assets/images/products/product2.jpg" alt="Produit 2">
+                <h3>Produit 2</h3>
+                <p>Description brève du produit.</p>
+                <a href="product_details.html" class="btn">Voir le produit</a>
+            </div>
+            <div class="product-card">
+                <img src="/frontend/public/assets/images/products/product3.jpg" alt="Produit 3">
+                <h3>Produit 3</h3>
+                <p>Description brève du produit.</p>
+                <a href="product_details.html" class="btn">Voir le produit</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section des vendeuses vedettes -->
+    <section class="featured-sellers">
+        <h2>Nos Vendeuses Vedettes</h2>
+        <div class="sellers-grid">
+            <div class="seller-card">
+                <img src="/frontend/public/assets/images/sellers/seller1.jpg" alt="Vendeuse 1">
+                <h3>Vendeuse 1</h3>
+                <p>"Découvrez ses créations uniques !"</p>
+            </div>
+            <div class="seller-card">
+                <img src="/frontend/public/assets/images/sellers/seller2.jpg" alt="Vendeuse 2">
+                <h3>Vendeuse 2</h3>
+                <p>"Une sélection exceptionnelle de produits."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="legal.html">Mentions légales</a></li>
+                <li><a href="privacy.html">Politique de confidentialité</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Réseaux sociaux</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2024 Secret Silk. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/frontend\src\js\global.js"></script>
+    <script src="/frontend\src\js\market.js"></script>
+</body>
+</html>
